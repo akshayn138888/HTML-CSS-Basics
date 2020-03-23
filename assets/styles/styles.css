@@ -1,0 +1,88 @@
+.external-style-list{
+    list-style-type: none;
+    color: teal;
+}
+body{
+    padding: 5em;
+     /* 
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
+  */
+
+  padding: 0 3em 0 2em;
+
+  /* padding top ! right | bottom | left */
+
+
+  padding: 3em 2em;
+  /* padding: top-bottom | right-left */
+
+  /*for margin it work the same*/
+
+  margin :1em;
+  line-height: 1.5 em
+    
+}
+
+/* CSS Selectors */
+
+/* 
+1. Element selectors: 
+  body
+  p
+  ul
+  li
+  a
+
+  1 point
+
+2. psuedo class selectors
+
+  .class-names
+
+  10 points
+
+3. id selectors
+
+  #id-name
+
+  100 point
+
+4. descendant-selectors
+
+  direct children selector
+  
+  ul > li <= select all (li)s that are directly inside ul
+  ul li <= select all (li)s that are inside ul, doesn't matter what level
+
+5. attribute selectors
+
+  p["class='article'"]
+  input["name='username'"]
+
+*/
+
+p.highlight {
+    background-color: grey;
+  }
+  
+  .highlight {
+    background-color: yellow;
+  }
+  
+  /* psuedo-class selectors */
+  
+  ol li:first-child {
+    background-color: green;
+  }
+  
+  ol li:last-child {
+    background-color: maroon;
+  }
+  
+  ol li:nth-child(2) {
+    background-color: whitesmoke;
+  }
+  

@@ -1,0 +1,73 @@
+body{
+    padding: 8em;
+    background: rgb(55,74,82);
+    background: linear-gradient(120deg, rgba(55,74,82,1) 13%, rgba(70,213,252,0.7945553221288515) 97%);
+}
+h1{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3{
+    font-style: italic;
+}
+
+h4{
+
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5em;
+
+
+}
+
+
+h5{
+
+    font-size: 1.4em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5em;
+
+
+}
+
+p{
+    line-height: 1.5em;
+    padding: 2em;
+    color: antiquewhite;
+    
+    background: rgb(55,74,82);
+    background: linear-gradient(120deg, rgba(55,74,82,1) 13%, rgba(70,213,252,0.7945553221288515) 97%);
+
+}
+button{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+    text-emphasis: none;
+    width: 8em;
+    height: 4em;
+    background: rgb(55,74,82);
+ background: linear-gradient(120deg, rgba(55,74,82,1) 13%, rgba(70,213,252,0.7945553221288515) 97%);
+
+
+}
+p.description{
+
+    line-height: 1.5em;
+    padding: 2em;
+    color: antiquewhite;
+    text-align: center;
+    
+    background: rgb(55,74,82);
+    background: linear-gradient(120deg, rgba(55,74,82,1) 13%, rgba(70,213,252,0.7945553221288515) 97%);
+}
+button:hover{
+    
+    background: rgb(1,0,36);
+    background: linear-gradient(90deg, rgba(1,0,36,1) 15%, rgba(9,70,121,0.6124824929971988) 44%, rgba(255,130,0,1) 67%);
+
+}
+
+
+
